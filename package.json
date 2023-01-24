@@ -1,7 +1,7 @@
 {
   "name": "codespaces-react",
   "version": "0.1.0",
-  "homepage": "https://zarmdev.github.io/react-gh-pages",
+  "homepage": "https://zarmdev.github.io/FCC",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
