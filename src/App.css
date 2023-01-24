@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -28,4 +29,51 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+a {
+  background-color: black;
+  padding: 0.2vw;
+  border-radius: 2px;
+  filter: drop-shadow(1px 1px 1px);
+}
+
+a img {
+  width: 2ch;
+  height: 2ch;
+}
+
+#quote-box {
+  background-color: rgb(75, 75, 204);
+  margin: 0;
+  padding: 2vw;
+  width: 60vw;
+  margin-top: 60px;
+}
+
+#text {
+  font-size: 3ch;
+}
+
+#author {
+  font-size: 2ch;
+  position: relative;
+  left: 60%;
+}
+#author::before {
+  content: '-';
+}
+#new-quote {
+  border: black solid 2px;
+  background-color: rgba(128, 128, 128, 0.384);
+  border-radius: 5px;
+  padding: 2vw;
+  font-size: 3ch;
+  cursor: pointer;
+}
+#tweet-quote {
+  margin-left: 1ch;
+  font-size: 4ch;
+  position: relative;
+  top: 5px;
 }
