@@ -1,7 +1,7 @@
 import './App.css';
 
-var quotes = ['Meow when you want to', 'Do what makes you a bark']
-var authors = ['Catington', 'Woofington']
+var quotes = ['Meow when you want to', 'Do what makes you a bark', 'I want to cat, lets cat it up']
+var authors = ['Catington', 'Woofington', '&#R#@&*#%&%']
 
 function App() {
   return (

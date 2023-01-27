@@ -1,6 +1,10 @@
+body {
+  background-color: #1b263b;
+}
 .App {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -44,11 +48,13 @@ a img {
 }
 
 #quote-box {
-  background-color: rgb(75, 75, 204);
+  background-color: rgba(75, 75, 204, 0.358);
   margin: 0;
   padding: 2vw;
   width: 60vw;
   margin-top: 60px;
+  color: #e0e1dd;
+  border-radius: 10px;
 }
 
 #text {
@@ -59,17 +65,20 @@ a img {
   font-size: 2ch;
   position: relative;
   left: 60%;
+  font-style: italic;
 }
 #author::before {
   content: '-';
 }
 #new-quote {
-  border: black solid 2px;
-  background-color: rgba(128, 128, 128, 0.384);
+  border: #0d1b2a solid 2px;
+  background-color: #778da9;
   border-radius: 5px;
-  padding: 2vw;
-  font-size: 3ch;
+  width: 14ch;
+  height: 6ch;
+  font-size: 20px;
   cursor: pointer;
+  color: #0d1b2a;
 }
 #tweet-quote {
   margin-left: 1ch;
